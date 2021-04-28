@@ -1,0 +1,22 @@
+Integrantes del equipo:
+    Edgar Iván Blas Peña
+    Cesar Paulino Mendiola Correa
+
+El proyecto trtade una palicación web para una gimnasio, que pueda 
+servir para guardar los pagos de los clientes pricipalmente
+
+"PASOS PARA QUE ARRANQUE:"
+
+Para que corra en el equipo, igual creo que ya sabe, pero si no:
+
+-Borre el archivo package.json
+-Entre a la carpeta del proyecto y pon 'nmp install', se le instalará de nuevo el proyecto
+-Una vez terminado instale los paquetes añadidos, estos son:
+
+-Bootstrap (Usado en algunos componentes)
+    'npm install --save react-bootstrap'   (por si no es uno, es otro)
+    'npm install react-bootstrap bootstrap'
+
+-React router 'yarn add react-router-dom' (solo es para muestra del esquema)
+
+-PropTypes (para más adelante)

@@ -1,0 +1,112 @@
+@media (min-width:992px) {
+    .vertical-nav {
+        position: relative;
+        top: 56px;
+        left: 0;
+        /*width: 200px;*/
+        height: 100%;
+        background-color: #f8f8f8;
+        overflow-y: auto;
+        padding-top: 30px
+    }
+}
+
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+.panelOp {
+    /*top: 56px;*/
+    left: 0;
+    height: 100%;
+    background-color: #f8f8f8;
+    overflow-y: auto;
+    padding-top: 30px
+}
+
+.panelMues {
+    top: 56px;
+    width: 1158px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+    padding-top: 30px
+}
+
+.Card-Op {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.card {
+    margin: 2em;
+}
+
+.flec {
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    -ms-transition: -ms-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+
+.flec:hover {
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+}
+
+.PM {
+    /*top: 56px;*/
+    background-color: #fafafa;
+    height: 100% !important;
+}
+
+.row>.panelControl {
+    bottom: 0;
+}
+
+.panelControl {
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.panelControl .pItem {
+    position: relative;
+    float: left;
+    margin: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 2px;
+    background-color: royalblue;
+    color: #fafafa;
+}
+
+
+/*login*/
+
+.cajaB {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+}
+
+.boton {
+    border-bottom: 2px solid rgb(185, 37, 0) !important;
+}
+
+.lista {
+    border-bottom: 1px solid #1d1d1d !important;
+    width: 100%;
+    float: right;
+}
