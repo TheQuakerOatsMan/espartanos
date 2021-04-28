@@ -2,15 +2,15 @@ Integrantes del equipo:
     Edgar Iván Blas Peña
     Cesar Paulino Mendiola Correa
 
-El proyecto trtade una palicación web para una gimnasio, que pueda 
+El proyecto trata de una palicación web para una gimnasio, que pueda 
 servir para guardar los pagos de los clientes pricipalmente
 
 "PASOS PARA QUE ARRANQUE:"
 
 Para que corra en el equipo, igual creo que ya sabe, pero si no:
 
--Borre el archivo package.json
--Entre a la carpeta del proyecto y pon 'nmp install', se le instalará de nuevo el proyecto
+-Entre a la carpeta del proyecto y pon 'nmp install', se le instalará las nuevas rutas que ocupe el proyecto
+-En caso de que no arranque al final, borre el arcivo 'package.json' y repita el paso anterior
 -Una vez terminado instale los paquetes añadidos, estos son:
 
 -Bootstrap (Usado en algunos componentes)
